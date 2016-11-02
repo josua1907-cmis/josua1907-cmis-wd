@@ -1,0 +1,9 @@
+List of useful commands
+ls - list items
+cd josua1907-cmis-wd - change to my repository
+cat filename - show what's on a file
+git clone --config="http.proxy=http://josua1907:9D6fg78k@192.168.2.1:8080" https://github.com/josua1907-cmis/josua1907-cmis-wd.git - clone (download from repository) 
+gedit filename & - edit or create a file and keep terminal going
+git add filename - add file to make github aware of it
+git commit -m "Commit message" - commit the stuff and make a message so you can remember what it is
+git push - push the files over to the server
