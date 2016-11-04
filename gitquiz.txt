@@ -1,0 +1,14 @@
+1. Enter classroom, sit at your computer and wait for the bell.
+2. Turn on computer
+3. Clone using the command git clone --config="http.proxy=http://josua1907:9D6fg78k@192.168.2.1:8080" https://github.com/josua1907-cmis/josua1907-cmis-wd.git this downloads everything from the repository to the computer.
+4. Enter the repository with the command cd josua1907-cmis-wd
+5. Create file with the command gedit filename.txt
+6. Edit file with the command gedit filename.txt
+7. Read file with the command cat filename.txt
+8. Add every now and again by the command git add filename.
+9. Commit with the command git commit -m "Commit message" where it says commit message, type a short statement that tells you what you have done.
+10. Push with the command git push , type in your username and password. Your work is now saved on github.
+11. A good idea is to log in to github, just to check that everything is there.
+12. When you are finished or before the bell rings, shut down terminal. Remember that you have to add, commit and push any new work for it to be saved. 
+13. Turn off the computer.
+14. Leave the classroom. 
