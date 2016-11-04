@@ -2,9 +2,9 @@
 2. Turn on computer
 3. Clone using the command git clone --config="http.proxy=http://josua1907:9D6fg78k@192.168.2.1:8080" https://github.com/josua1907-cmis/josua1907-cmis-wd.git this downloads everything from the repository to the computer.
 4. Enter the repository with the command cd josua1907-cmis-wd
-5. Create file with the command gedit filename.txt
-6. Edit file with the command gedit filename.txt
-7. Read file with the command cat filename.txt
+5. Create file with the command gedit file.txt Write anything you need to write
+6. If you shut gedit down, open the file again with the command gedit file.txt
+7. Read file with the command cat file.txt
 8. Add every now and again by the command git add filename.
 9. Commit with the command git commit -m "Commit message" where it says commit message, type a short statement that tells you what you have done.
 10. Push with the command git push , type in your username and password. Your work is now saved on github.
