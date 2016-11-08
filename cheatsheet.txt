@@ -7,3 +7,4 @@ gedit filename & - edit or create a file and keep terminal going
 git add filename - add file to make github aware of it
 git commit -m "Commit message" - commit the stuff and make a message so you can remember what it is
 git push - push the files over to the server
+python -m SimpleHTTPServer - open server
