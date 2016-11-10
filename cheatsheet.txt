@@ -8,3 +8,8 @@ git add filename - add file to make github aware of it
 git commit -m "Commit message" - commit the stuff and make a message so you can remember what it is
 git push - push the files over to the server
 python -m SimpleHTTPServer - open server
+control c - quit anything that is running on terminal, like a server
+sftp josua1907@cmis-hsteacher - go into the server on Mr. Keiffers computer
+!ls - see local list
+put filename - upload file to server
+pwd - see where you are working from
