@@ -1,4 +1,13 @@
 html { 
 	font-family: "Times New Roman";
-	background-color: #ff44bb;
+	background-color: #2299bb;
+}
+h1 {
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	color: #ffffff;
+}
+p {
+	border-style: solid;
+	border-width:thin medium thick 10px;
+	border-left-color: #ffcc00;
 }
