@@ -1,3 +1,23 @@
+/*
+font-family
+font-size
+font-weight
+background-color
+background-image
+color
+gradient:
+background: -webkit-linear-gradient(direction, color, color);
+background: -o-linear-gradient(direction, color, color);
+background: -moz-linear-gradient(direction, color, color);
+background: linear-gradient(direction, color, color);
+border
+border-color
+border-style
+border-width
+border-side-color
+box-shadow
+opacity
+*/
 html { 
 	font-family: "Times New Roman";
 	background-color: #2299bb;
@@ -24,7 +44,7 @@ h2 {
 	background: -o-linear-gradient(bottom right, MidnightBlue, DarkTurquoise);
 	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurqouise);
 	background: linear-gradient(to bottom right, MidnightBlue, DarkTurqouise);
-	box-shadow: 5px 5px;
+	box-shadow: 5px 5px #113366;
 	opacity: 0.7;
 }
 p {
@@ -39,6 +59,6 @@ p {
 	background: -moz-linear-gradient(bottom, #ffdd22, #aa8800);
 	background: linear-gradient(to bottom, #ffdd22, #aa8800);
 	box-shadow: 3px 3px;
-	-webkit-transform: rotateZ(90deg);
-	transform: rotateZ(90deg);
+	-webkit-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
 }
