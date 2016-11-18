@@ -2,6 +2,7 @@
 font-family
 font-size
 font-weight
+font-style
 background-color
 background-image
 color
@@ -17,6 +18,8 @@ border-width
 border-side-color
 box-shadow
 opacity
+-webkit-transform: rotateZ(deg);
+	transform: rotateZ(deg);
 */
 html { 
 	font-family: "Times New Roman";
@@ -46,6 +49,14 @@ h2 {
 	background: linear-gradient(to bottom right, MidnightBlue, DarkTurqouise);
 	box-shadow: 5px 5px #113366;
 	opacity: 0.7;
+}
+h3 { 
+	font-size: 60px;
+	font-style: italic;
+	border: 5px solid;
+	padding-left: 60%;
+	outline-style: double;
+	
 }
 p {
 	border-style: solid;
