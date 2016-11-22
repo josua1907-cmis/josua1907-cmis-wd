@@ -14,8 +14,8 @@ View your index.html in the development server.
 *Validate your index.html file.
 *Validate your main.css file.
 *Copy this list of requirements and paste it into the top of your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
-Upload to the production server with sftp.
-View your index.html in the production server.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
 font-family
 font-size
 font-weight
@@ -53,7 +53,7 @@ html {
 	background-repeat: no-repeat;
 }
 h1 {
-	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-family: Copperplate Gothic Light, sans-serif;
 	color: #ffffff;
 	border: 5px dotted;
 	border-radius: 100px;
@@ -73,8 +73,8 @@ h2 {
 	text-shadow: 30px 3px #44eeff;
 	background: -webkit-linear-gradient(left top, DarkTurquoise, MidnightBlue);
 	background: -o-linear-gradient(bottom right, MidnightBlue, DarkTurquoise);
-	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurqouise);
-	background: linear-gradient(to bottom right, MidnightBlue, DarkTurqouise);
+	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurquoise);
+	background: linear-gradient(to bottom right, MidnightBlue, DarkTurquoise);
 	box-shadow: 2mm 2mm #113366;
 	opacity: 0.7;
 }
