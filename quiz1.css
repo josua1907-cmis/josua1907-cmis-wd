@@ -45,7 +45,7 @@ h5{
 	color: black;
 }
 h6{
-	background: darkred, red;
+	background: red;
 	color: black;
 }
 footer{
@@ -53,5 +53,4 @@ footer{
    	height: 100px;
     	border-bottom: 1px solid black;
     	box-sizing: border-box;
-	box-shadow: 500px black;
 }
