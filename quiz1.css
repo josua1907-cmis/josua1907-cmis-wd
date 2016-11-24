@@ -1,0 +1,57 @@
+html{
+	background-color: #ffcccc;
+	border-left-style: dotted;
+	border-left-color: red;
+	border-width: 25px;
+}
+header{
+	background-color: #ccccff;
+	border-bottom-style: dotted;	
+	border-bottom-color: red;
+	border-width: 25px;	
+}
+h1 {
+	color: red;
+	text-decoration: underline;
+	border-bottom-style: solid;
+	border-color: black;
+	font-size: 50px
+	
+}
+main{
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+}
+p {
+	color: blue;
+	border-top-style: dotted;
+	border-color: green;
+}
+h2{
+	background: blue;
+	color: white;
+}
+h3{
+	background: blue;
+	color: white;
+}
+h4{
+	background: blue;
+	color: white;
+}
+h5{
+	background: red;
+	color: black;
+}
+h6{
+	background: darkred, red;
+	color: black;
+}
+footer{
+	width: 500px;
+   	height: 100px;
+    	border-bottom: 1px solid black;
+    	box-sizing: border-box;
+	box-shadow: 500px black;
+}
