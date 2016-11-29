@@ -58,18 +58,19 @@ html {
 }
 h1 {	
 	font-family: sansation;
-	color: #ffffff;
-	border-style: double;
-	border-width: 5px;
+	color: #000000;
+	outline-style: double;
+	border-style: solid;
+	border-width: 3px;
 	text-align: center;By
 }
 nav p{
 	background-color: #ffffff;
-{
+}
 	
 h2 {
 	font-family: "Courier New";
-	font-size: 84px;	
+	font-size: 48px;	
 	font-weight: bold;
 	text-decoration: underline;
 	text-shadow: 30px 3px #44eeff;
@@ -86,8 +87,7 @@ h3 {
 	border: 5px solid;
 	padding-left: 60%;
 	outline-style: double;
-	background: #7788ff;
-	opacity: 0.5;
+	opacity: 1;
 }
 p {
 	font-family: "Times New Roman";	
@@ -105,6 +105,7 @@ p {
 	-webkit-transform: rotateZ(180deg);
 	transform: rotateZ(180deg);
 	padding-left:1in;
+	
 	
 }
 
