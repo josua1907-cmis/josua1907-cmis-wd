@@ -23,7 +23,7 @@ font-style
 text-decoration
 text-shadow
 text-align
-background-color
+background-colorBy
 background-image
 background-repeat
 color
@@ -39,7 +39,7 @@ border-width
 border-side-color
 box-shadow
 padding-direction
-outline-style
+outline-styleBy
 opacity
 -webkit-transform: rotateZ(deg);
 	transform: rotateZ(deg);
@@ -52,19 +52,21 @@ html {
 	background-image: url("http://assets.worldwildlife.org/photos/2325/images/hero_full/mountains-hero.jpg?1345838509");
 	background-repeat: no-repeat;
 }
-h1 {
-	font-family: Copperplate Gothic Light, sans-serif;
-	color: #ffffff;
-	border: 5px dotted;
-	border-radius: 100px;
-	border-color: #aa0000;
-	box-shadow: 10px 10px 5px #2f7799;
-	text-align: center;
-	background: -webkit-linear-gradient(right top, #ff751a, #cc0000);
-	background: -o-linear-gradient(bottom left, #cc0000, #ff751a);
-	background: -moz-linear-gradient(bottom left, #cc0000, #ff751a);
-	background: linear-gradient(to bottom left, #cc0000, #ff751a);
+@fontface {
+	font-family: sansation;
+  	src: url(sansation_light.woff);
 }
+h1 {	
+	font-family: sansation;
+	color: #ffffff;
+	border-style: double;
+	border-width: 5px;
+	text-align: center;By
+}
+nav p{
+	background-color: #ffffff;
+{
+	
 h2 {
 	font-family: "Courier New";
 	font-size: 84px;	
