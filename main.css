@@ -64,16 +64,13 @@ h1 {
 	border-width: 3px;
 	text-align: center;By
 }
-nav p{
-	background-color: #ffffff;
-}
 	
 h2 {
 	font-family: "Courier New";
 	font-size: 48px;	
 	font-weight: bold;
 	text-decoration: underline;
-	text-shadow: 30px 3px #44eeff;
+	text-shadow: 3px 2px #44eeff;
 	background: -webkit-linear-gradient(left top, DarkTurquoise, MidnightBlue);
 	background: -o-linear-gradient(bottom right, MidnightBlue, DarkTurquoise);
 	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurquoise);
@@ -85,9 +82,28 @@ h3 {
 	font-size: 40pt;
 	font-style: italic;
 	border: 5px solid;
-	padding-left: 60%;
+	padding-left: 6%;
 	outline-style: double;
+	margin-left: 600px;
 	opacity: 1;
+}
+h4 {
+	font-size: 30pt;
+	font-style: italic;
+	border: 5px solid;
+	padding-left: 6%;
+	outline-style: double;
+	margin: -50px 20px -90px 600px;
+	opacity: 1;
+}
+ol, ul, nav, a {
+	background: -webkit-linear-gradient(left, rgba(), rgba(00, 90, 170, 0.8));
+	background: -o-linear-gradient(right, rgba(00, 90, 170, 0), rgba(00, 90, 170, 0.8));
+	background: -moz-linear-gradient(right,rgba(00, 90, 170, 0),rgba(00, 90, 170, 0.8));
+	background: linear-gradient(to left, rgba(00, 90, 170, 0), rgba(00, 90, 170, 0.8));
+	color: #ffffff;
+	margin-right: 500px;
+	
 }
 p {
 	font-family: "Times New Roman";	
@@ -105,7 +121,12 @@ p {
 	-webkit-transform: rotateZ(180deg);
 	transform: rotateZ(180deg);
 	padding-left:1in;
-	
-	
+}
+footer {
+	background: -webkit-linear-gradient(left, rgba(), rgba(00, 90, 170, 0.8));
+	background: -o-linear-gradient(right, rgba(00, 90, 170, 0), rgba(00, 90, 170, 0.8));
+	background: -moz-linear-gradient(right,rgba(00, 90, 170, 0),rgba(00, 90, 170, 0.8));
+	background: linear-gradient(to left, rgba(00, 90, 170, 0), rgba(00, 90, 170, 0.8));
+	color: #ffffff;
 }
 
