@@ -1,0 +1,75 @@
+/*
+font-family
+font-size
+font-weight
+font-style
+text-decoration
+text-shadow
+text-align
+background-colorBy
+background-image
+background-repeat
+color
+gradient:
+background: -webkit-linear-gradient(direction, color, color);
+background: -o-linear-gradient(direction, color, color);
+background: -mpeatoz-linear-gradient(direction, color, color);
+background: linear-gradient(direction, color, color);
+border
+border-color
+border-style
+border-width
+border-side-color
+box-shadow
+padding-direction
+outline-styleBy
+opacity
+-webkit-transform: rotateZ(deg);
+	transform: rotateZ(deg);
+I have learnt text-shadow and text-decoration from Jonathan and text-align from Aroya.
+*/
+html { 
+	font-family: "Times New Roman";
+	background-color: red;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+header {
+		background: blue;
+		color: white;
+}
+h1 {	
+	font-family: impact;
+	color: yellow;
+	border-left-style: solid;
+	border-left-width: 30px;
+}
+main {
+	background: white;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+h2 {
+	font-family: "Courier New";
+	font-size: 22px;	
+	font-weight: bold;
+	border-right-style: solid;
+	border-color: green;
+	border-width: 100px;
+}
+nav {
+	color: yellow;
+	text-decoration: line-through;
+}
+ol li {
+	color: black;
+	border-style: dotted;	
+}
+p {
+	font-family: "Times New Roman";	
+}
+footer {
+	background: blue;
+	color: #ffffff;
+}
+
