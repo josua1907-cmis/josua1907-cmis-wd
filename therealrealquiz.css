@@ -35,8 +35,9 @@ html {
 	margin-right: 20%;
 }
 header {
-		background: blue;
-		color: white;
+	background: blue;
+	color: white;
+	font-family: arial;		
 }
 h1 {	
 	font-family: impact;
@@ -64,6 +65,9 @@ nav {
 ol li {
 	color: black;
 	border-style: dotted;	
+}
+ul {
+	font-size: 12px;
 }
 p {
 	font-family: "Times New Roman";	
