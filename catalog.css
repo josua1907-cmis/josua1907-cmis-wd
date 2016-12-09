@@ -1,15 +1,31 @@
 html {
-	background-image: "HD-Cycking-Wallpaper.jpg"
+	background-image: url("HD-Cycling-Wallpaper.jpg");
+	background-attachment: fixed;
 }
-@font-face {
-	font-family:
+h1 {
+	font-family: 'Racing Sans One', cursive;
+	font-size: 50px;
+	border-style: double;
+	outline: solid;
+	padding: 3%;
+	background: -webkit-linear-gradient(left top, DarkTurquoise, MidnightBlue);
+	bacground: -o-linear-gradient(bottom right, MidnightBlue, DarkTurquoise);
+	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurquoise);
+	background: linear-gradient(to bottom right, #882222, #490044);
+	color: white;
+	opacity: 1.0;
 }
 article {
 	border-style: double;
 	margin: 10%;
 	padding: 3%;
-	shadow:
+	outline: solid 2px;
+	color: white;
 }
 h3 {
-	outline: 2px;
+	font-family: 'Prosto One', cursive;	
+	text-decoration: underline;
+}
+footer {
+	color: white;
 }
