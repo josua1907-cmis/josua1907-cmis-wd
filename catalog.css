@@ -2,18 +2,43 @@ html {
 	background-image: url("HD-Cycling-Wallpaper.jpg");
 	background-attachment: fixed;
 }
-h1 {
+header {
 	font-family: 'Racing Sans One', cursive;
 	font-size: 50px;
 	border-style: double;
 	outline: solid;
-	padding: 3%;
-	background: -webkit-linear-gradient(left top, DarkTurquoise, MidnightBlue);
-	bacground: -o-linear-gradient(bottom right, MidnightBlue, DarkTurquoise);
-	background: -moz-linear-gradient(bottom right, MidnighBlue, DarkTurquoise);
+	margin: 1%;
 	background: linear-gradient(to bottom right, #882222, #490044);
 	color: white;
 	opacity: 1.0;
+}
+header p {
+	font-size: 25px;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 1px;
+	padding-bottom: 2%;
+	margin: 1px;
+}
+header h1 {
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: -10px;
+	padding-bottom: 1px;
+}
+main{
+	font-family: 'Prosto One', cursive;
+	color: white;
+}
+h2, footer {
+	font-family: 'Prosto One', cursive;
+	color: white;
+	border-style: double;
+	outline: solid 2px;
+	padding: 1%;
+	margin: 10%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 article {
 	border-style: double;
@@ -21,11 +46,29 @@ article {
 	padding: 3%;
 	outline: solid 2px;
 	color: white;
+	background: rgba(84, 139, 226, 0.5);
 }
 h3 {
 	font-family: 'Prosto One', cursive;	
 	text-decoration: underline;
 }
-footer {
-	color: white;
+a:link, a:visited {
+    background-color: #882222;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #490044;
+}
+img {
+	margin: 0 0 50px 0;
+	border: 5px solid black;
+}
+img article {
+	border: none;
+	margin: 5px;
 }
